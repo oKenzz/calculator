@@ -17,7 +17,7 @@ public class Model {
         return divided / divisor;
     }
 
-    private double square(double number){
+    private double root(double number){
         return Math.sqrt(number);
     }
 

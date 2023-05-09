@@ -1,8 +1,8 @@
 public class App{
     public static void main(String[] args) {
-        new View();
+        View view = new View();
+        new Controller(view);
     }
 
 }
-
 
